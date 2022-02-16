@@ -3,7 +3,7 @@ def is_leap(n):
   
       leap=False   
   
-      if year%4==0 year%100!=0 year%400==0: 
+      if year%4==0 and year%100!=0 or year%400==0: 
         
            return True    
 
